@@ -394,7 +394,7 @@ html, body {
 }
 
 
-@media(max-width: 1000px){
+@media(max-width: 800px){
   .astronaut{
       width: 250px;
       height: 300px;
