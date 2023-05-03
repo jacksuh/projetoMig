@@ -5,6 +5,12 @@
     
 }
 
+.imgcenter{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
 
 .scene{
     position: relative;
@@ -18,7 +24,10 @@
     background: black url("../img/planetas.png") no-repeat right top fixed;
 }
 
-
+.scene img{
+  width: 620px;
+  gap: 10px;
+}
 
 .scene i{
     position: fixed;
@@ -280,7 +289,7 @@ html, body {
 }
 
 .form-content .form-items {
-    border: 3px solid #ac0a0a;
+    border: 3px solid #ece24c;
     padding: 40px;
     display: inline-block;
     width: 100%;
@@ -429,8 +438,17 @@ html, body {
       -webkit-animation: none;
   }
 
+  .scene img{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    align-content: center;
+    
+    
+  }
+
   .form-content .form-items {
-    border: 3px solid #ac0a0a;
+    border: 3px solid #aca10a;
     padding: 20px;
     display: inline-block;
     width: 100%;
@@ -457,6 +475,12 @@ html, body {
       -webkit-animation: none
   }
 
+  .scene img{
+    width: 500px;
+    gap: 10px;
+    
+  }
+
   .form-content .form-items {
     border: 3px solid #ac0a0a;
     padding: 20px;
@@ -472,11 +496,6 @@ html, body {
     background-color: black;
 }
 
-
-.scene h1{
-  font-size:30px;
-}
-
 @media(max-width: 500px){
 
   .scene{
@@ -488,8 +507,15 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black url("./img/planetas.png") no-repeat right top fixed;
+    background: black url("../img/planetas.png") no-repeat right top fixed;
 }
+
+.scene img{
+  width: 300px;
+  gap: 10px;
+  align: center;
+}
+
 
 
   .astronaut{
@@ -520,5 +546,15 @@ html, body {
 .scene h1{
 font-size:20px;
 }
+
+.scene h1{
+  color: white;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 40px;
+  font-family: 'OCR A Std, monospace'
+  
+
+  
 }
 }
