@@ -6,10 +6,10 @@
 }
 
 .imgcenter {
-  width: 100px;
+  width: 100%;
   display: flex;
-  margin-top: -400px;
-  margin-left: -200px;
+  /*/*margin-top: -400px;*/
+  /* margin-left: -200px; */
 }
 
 
@@ -20,14 +20,17 @@
     overflow: hidden;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: black url("../img/planetas.png") no-repeat right top fixed;
 }
 
 .scene img{
-  width: 620px;
+  width: 80%;
+  max-width: 620px;
   gap: 10px;
+  margin: 0 auto;
 }
 
 .scene i{
@@ -38,7 +41,8 @@
 }
 
 .scene .rocket{
-    position: relative;
+  /* width: 100%; */
+    /* position: relative; */
     animation: animate 0.2s ease infinite;
 
 }
@@ -271,7 +275,7 @@ html, body {
       justify-content: center;
       align-items: center;
       text-align: center;
-      min-height: 100vh;
+      /* min-height: 100vh; */
 }
 
 .form-holder .form-content {
@@ -409,14 +413,15 @@ html, body {
       top: calc(90% - 150px);
       left: calc(50% - 125px);
       -webkit-animation: none;
+      display: none;
   }
 
   .imgcenter {
-    width: 100px;
+    /* width: 100px; */
     display: flex;
     align-items: center;
-    margin-top: -400px;
-    margin-left: 200px;
+    /*margin-top: -400px;*/
+    /* margin-left: 200px; */
   }
 
   .form-content .form-items {
@@ -445,14 +450,15 @@ html, body {
       top: calc(90% - 150px);
       left: calc(50% - 125px);
       -webkit-animation: none;
+      display: none;
   }
 
   .scene .imgcenter {
-    width: 100px;
+    /* width: 100px; */
     display: flex;
     align-items: center;
-    margin-top: -400px;
-    margin-left: -5px;
+    /*margin-top: -400px;*/
+    /* margin-left: -5px; */
   }
 
   .form-content .form-items {
@@ -461,7 +467,7 @@ html, body {
     display: inline-block;
     width: 100%;
     min-width: 440px;
-    margin-left: -200px;
+    /* margin-left: -200px; */
     -webkit-border-radius: 30px;
     -moz-border-radius: 100px;
     border-radius: 40px;
@@ -481,15 +487,16 @@ html, body {
       z-index: 11;
       top: calc(90% - 150px);
       left: calc(50% - 125px);
-      -webkit-animation: none
+      -webkit-animation: none;
+      display: none;
   }
 
   .imgcenter {
-    width: 100px;
+    /* width: 100px; */
     display: flex;
     align-items: center;
-    margin-top: -400px;
-    margin-left: 70px;
+    /*margin-top: -400px;*/
+    /* margin-left: 70px; */
   }
 
   .form-content .form-items {
@@ -522,13 +529,13 @@ html, body {
 }
 
 .imgcenter {
-  width: 100px;
+  /* width: 100px; */
   height: 50px;
   display: flex;
   align-items: center;
-  margin-top: -400px;
-  margin-right: 500px;
-  margin-left: -1px;
+  /*margin-top: -400px;*/
+  /* margin-right: 500px; */
+  /* margin-left: -1px; */
 }
 
 
@@ -540,6 +547,7 @@ html, body {
     top: calc(90% - 150px);
     left: calc(50% - 125px);
     -webkit-animation: none;
+    display: none;
 }
 
 .form-content .form-items {
@@ -552,7 +560,7 @@ html, body {
   -moz-border-radius: 90px;
   border-radius: 30px;
   text-align: left;
-  margin-left: -600px;
+  /* margin-left: -600px; */
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background-color: black;
