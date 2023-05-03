@@ -396,9 +396,9 @@ html, body {
 
 @media(max-width: 800px){
   .astronaut{
-      width: 250px;
-      height: 300px;
-      position: absolute;
+      width: 50px;
+      height: 100px;
+      position: relative;
       z-index: 11;
       top: calc(90% - 150px);
       left: calc(50% - 125px);
