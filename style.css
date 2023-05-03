@@ -420,4 +420,36 @@ html, body {
 .scene h1{
   font-size:30px;
 }
+
+@media(max-width: 600px){
+
+  .astronaut{
+    width: 50px;
+    height: 100px;
+    position: relative;
+    z-index: 11;
+    top: calc(90% - 150px);
+    left: calc(50% - 125px);
+    -webkit-animation: astronaut 5s linear infinite;
+}
+
+.form-content .form-items {
+  border: 3px solid #ac0a0a;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+  min-width: 340px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 90px;
+  border-radius: 30px;
+  text-align: left;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: black;
+}
+
+.scene h1{
+font-size:20px;
+}
+}
 }
