@@ -421,7 +421,7 @@ html, body {
   font-size:30px;
 }
 
-@media(max-width: 600px){
+@media(max-width: 500px){
 
   .astronaut{
     width: 50px;
@@ -435,10 +435,10 @@ html, body {
 
 .form-content .form-items {
   border: 3px solid #ac0a0a;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
   width: 100%;
-  min-width: 340px;
+  min-width: 240px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 90px;
   border-radius: 30px;
