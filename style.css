@@ -284,7 +284,7 @@ html, body {
 }
 
 .form-content .form-items {
-    border: 3px solid #6d0404;
+    border: 3px solid #ac0a0a;
     padding: 40px;
     display: inline-block;
     width: 100%;
@@ -404,4 +404,19 @@ html, body {
       left: calc(50% - 125px);
       -webkit-animation: astronaut 5s linear infinite;
   }
+
+  .form-content .form-items {
+    border: 3px solid #ac0a0a;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    min-width: 440px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 100px;
+    border-radius: 40px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-color: black;
+}
 }
