@@ -6,10 +6,6 @@
 }
 
 
-.scene h1{
-  font-family: "Fira Sans", Arial, sans-serif;
-}
-
 .scene{
     position: relative;
     width: 100%;
@@ -418,5 +414,10 @@ html, body {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     background-color: black;
+}
+
+
+.scene h1{
+  font-size:30px;
 }
 }
