@@ -35,17 +35,21 @@
                         <div class="form-items">
                             <h3>Confirme sua Presença</h3>
                             <p>Abaixo informe nome dos adultos separado por virgula, nome das crianças e a idade das crianças</p>
-                            <form class="requires-validation" novalidate action="https://api.sheetmonkey.io/form/656zvE598KFQb4C22SdM3C" method="post">
+                            <form class="needs-validation" action="https://api.sheetmonkey.io/form/656zvE598KFQb4C22SdM3C" method="post">
                                 <div class="col-md-12">
-                                   <input class="form-control" type="text" name="name" placeholder="Nome"  required>
-                                   
+                                    <label  for="validationCustomUsername" class="text-white" for="validationCustom01">Nome Adultos:</label>
+                                   <input class="form-control" id="validationCustomUsername" type="text" name="name" placeholder="Primeiro Nome, Segundo Nome..." id="nome" required>
+                                   <div class="valid-feedback">
+                                    Preencher pelo menos o nome dos Adultos!
+                                  </div>
                                 </div>
-    
-                                <div class="col-md-12">
-                                    <input class="form-control" type="text" name="name-crianca" placeholder="Nome Criança" required>
+                                <div class="col-md-12 mt-2">
+                                    <label class="text-white">Nome Crianças:</label>
+                                    <input class="form-control" type="text" name="name-crianca" placeholder="Primeiro Nome, Segundo Nome..." >
                                 </div>
-                               <div class="col-md-12">
-                                  <input class="form-control" type="text" name="idade-Crianca" placeholder="Idade Crianças" required>
+                               <div class="col-md-12 mt-2">
+                                    <label class="text-white">Idade Crianças:</label>
+                                  <input class="form-control" type="text" name="idade-Crianca" placeholder="Idade Crianças...">
                                </div>
                                 <div class="form-button mt-3">
                                     <button id="submit" type="submit" class="btn btn-primary">Confirmar</button>
@@ -58,6 +62,5 @@
         </div>
     
     </div>
-
 </body>
 </html>
