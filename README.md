@@ -4,15 +4,18 @@ Aplicação com o intuito de lista de confirmação de presença para aniversari
 
 ## ⚙️ Funcionalidades
 - [x] Criação da pagina html, css.
-- 
-
-
-
-
-
+- [x] Formulario com boostrap.
+- [x] Integração com SheetMokey.
+- [x] Responsivo para mobile.
+- [x] Organização de pasta e código.
+- [x] Validação de campo com boostrap para o Nome do adulto.
+- [x] Testar integração com salvamento dos dados.
 
 
 
 As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
 
-- **[Java 17](https://www.oracle.com/java)**
+- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+- **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+- **[Boostrap](https://getbootstrap.com/)**
+- **[SheetMokey](https://sheetmonkey.io/)**
