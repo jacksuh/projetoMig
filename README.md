@@ -18,4 +18,4 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 - **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 - **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 - **[Boostrap](https://getbootstrap.com/)**
-- **[SheetMokey](https://sheetmonkey.io/)**
+- **[SheetMonkey](https://sheetmonkey.io/)**
